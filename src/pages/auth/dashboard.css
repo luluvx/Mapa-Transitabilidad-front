@@ -1,0 +1,49 @@
+.container-dashboard {
+    margin-top: 40px;
+}
+
+.card-dashboard {
+    background-color: #222222;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title-dashboard {
+    color: #4a8dff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text-dashboard {
+    color: #f1f1f1;
+}
+
+.btn-dashboard {
+    background-color: #4a8dff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn-dashboard:hover {
+    background-color: #3578e5;
+    cursor: pointer;
+}
+
+.btn-dashboard.mt-2 {
+    margin-top: 10px;
+}
+
+.card-dashboard .btn-custom {
+    background-color: #3578e5;
+}
+
+.card-dashboard .btn-custom:hover {
+    background-color: #4a8dff;
+}

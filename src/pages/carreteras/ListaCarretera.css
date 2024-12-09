@@ -1,0 +1,94 @@
+.container-carreteras {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card-carretera {
+    background-color: #222222;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 150px;
+}
+
+.card-body-carretera {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title-carretera {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnCarreteraCreate {
+    background-color: #4a8dff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btnCarreteraCreate:hover {
+    background-color: #3578e5;
+    cursor: pointer;
+}
+
+.btnCarreteraEdit,
+.btnCarreteraDelete {
+    border-radius: 10px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.btnCarreteraEdit {
+    background-color: #4a8dff;
+    color: white;
+    border: none;
+}
+
+.btnCarreteraEdit:hover {
+    background-color: #3578e5;
+}
+
+.btnCarreteraDelete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btnCarreteraDelete:hover {
+    background-color: #c82333;
+}
+
+.alert-no-carreteras {
+    background-color: #d93d3d;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.carretera-title {
+    color: #4a8dff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}

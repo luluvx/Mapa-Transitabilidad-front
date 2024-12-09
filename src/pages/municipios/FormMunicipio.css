@@ -1,0 +1,110 @@
+.municipio-form-container {
+    padding: 30px;
+    background-color: #181818;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.municipio-form-card {
+    background-color: #222222;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 400px;
+}
+
+.municipio-form-card-body {
+    padding: 20px;
+}
+
+.municipio-form-title {
+    color: #4a8dff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.municipio-form-label {
+    font-weight: 600;
+    color: #f1f1f1;
+}
+
+.municipio-form-control {
+    background-color: #333333;
+    border: 1px solid #444;
+    color: #f1f1f1;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.municipio-form-control:focus {
+    border-color: #4a8dff;
+    box-shadow: 0 0 5px rgba(74, 141, 255, 0.5);
+}
+
+.municipio-form-btn {
+    background-color: #4a8dff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.municipio-form-btn:hover {
+    background-color: #3578e5;
+    cursor: pointer;
+}
+
+.municipio-alert {
+    background-color: #d93d3d;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.municipio-form-group {
+    margin-top: 20px;
+}
+
+.municipio-form-group-button {
+    margin-top: 30px;
+}
+
+.municipio-error-text {
+    color: #d93d3d;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.municipio-map-container {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.municipio-map-btn-container {
+    margin-bottom: 10px;
+}
+
+.municipio-map-btn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.municipio-map-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
